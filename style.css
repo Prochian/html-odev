@@ -1,0 +1,267 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background size: contain;
+
+}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    overflow-x: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+}
+
+header li{
+    display: inline;
+    padding-left: 20px;
+
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+    float: right;
+    
+}
+
+header li a:hover{
+    color: rgb(0, 132, 255);
+
+}
+
+li a.active {
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border-radius: 30px;
+  }
+
+header li img{
+    width: 140px;
+    float: left;
+    margin-top: -60px;
+
+}
+
+.row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 90%;
+}
+
+h1{
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    line-height: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    width: 180px;
+    color:white ;
+    font-size: 15px;
+    padding: 13px 0;
+    background-color: rgb(0, 132, 255);
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5   ;
+}
+
+.card1{
+    background-image: url(images/1.png);
+}
+
+.card2{
+    background-image: url(images/2.png);
+}
+
+.card3{
+    background-image: url(images/3.png);
+}
+
+.card4{
+    background-image: url(images/4.png);
+}
+.card5{
+    background-image: url(images/5.png);
+}
+.card6{
+    background-image: url(images/6.png);
+}
+.card7{
+    background-image: url(images/7.png);
+}
+.card8{
+    background-image: url(images/8.png);
+}
+.card9{
+    background-image: url(images/9.png);
+}
+.card10{
+    background-image: url(images/10.png);
+}
+.card11{
+    background-image: url(images/11.png);
+}
+.card12{
+    background-image: url(images/12.png);
+}
+.card13{
+    background-image: url(images/13.png);
+}
+.card14{
+    background-image: url(images/14.png);
+}
+.card15{
+    background-image: url(images/15.png);
+}
+.card16{
+    background-image: url(images/16.png);
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.cardaboutme{
+    width: 550px;
+    height: 580px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 55px 25px;
+    box-sizing: border-box;
+    margin: 200px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5   ;
+}
+
+.row2{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+.cardaboutme1{
+    background-image: url(images/me.jpg);
+}
+
+.abouttext{
+    width: 500px;
+    margin: 10px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 10 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#abouth1{
+    font-size: 90px;
+    margin: 0;
+    color: rgb(0, 132, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row3{
+    display: flex;
+    height: 110%;
+    align-items: center;
+}
+
+.col3{
+    flex-basis: 90%;
+}
+
+.contact-box{
+
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 #999;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+
+form{
+    margin: 35px;
+
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+
+.textarea-field{
+
+    height: 250px;
+    padding-top: 10px;
+}
+
+.btn{
+    border-radius: 20px;
+    color: white;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: rgb(0, 132, 255);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
