@@ -27,14 +27,16 @@
 </div>
 </div>
 <h2>Last Designs</h2>
-<div class="card card1">
+<div class="card card1" onclick="showModal('images/1.png')"></div>
+<div class="card card2" onclick="showModal('images/2.png')"></div>
+<div class="card card3" onclick="showModal('images/3.png')"></div>
+<div class="card card4" onclick="showModal('images/4.png')"></div>
 </div>
-<div class="card card2">
+<!-- Modal -->
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage">
 </div>
-<div class="card card3">
-</div>
-<div class="card card4">
-</div>
-</div>
+<script src="script.js"></script>
 </body>
 </html>

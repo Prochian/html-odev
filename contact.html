@@ -19,15 +19,15 @@
 </header>
 <h1>Contact</h1>
 <div class="contact-box">
-<form action="">
-  <input type="text" class="input-field" placeholder="Your Name">
-  <input type="email" class="input-field" placeholder="Your E-mail">
-  <input type="text" class="input-field" placeholder="Subject">
-  <textarea type="text" class="input-field textarea-field" placeholder="Your Message"> </textarea>
-  <button type="button" class="btn">Send Message</button>
-
-</form>
+  <form onsubmit="return validateForm()">
+    <input type="text" class="input-field" placeholder="Your Name">
+    <input type="email" class="input-field" placeholder="Your E-mail">
+    <input type="text" class="input-field" placeholder="Subject">
+    <textarea type="text" class="input-field textarea-field" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
 </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
